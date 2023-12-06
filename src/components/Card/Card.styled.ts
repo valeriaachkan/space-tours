@@ -28,5 +28,5 @@ export const ButtonsWrapper = styled.div`
 	display: inline-flex;
 	gap: 16px;
 	width: 100%;
-	margin-top: 64px;
+	margin-top: 32px;
 `;
