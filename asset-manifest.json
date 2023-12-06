@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/space-tours/static/css/main.ac41eca8.css",
+    "main.js": "/space-tours/static/js/main.624557dc.js",
+    "static/media/hero-img2.png": "/space-tours/static/media/hero-img2.93a277714aaa0e58394b.png",
+    "static/media/hero-img1.png": "/space-tours/static/media/hero-img1.4eea3b65d8b089a7d008.png",
+    "static/media/hero-img3.png": "/space-tours/static/media/hero-img3.2eddcba1f38bafa7ca53.png",
+    "static/media/card-img2.png": "/space-tours/static/media/card-img2.e697ae0a2b48d6226a99.png",
+    "static/media/card-img3.png": "/space-tours/static/media/card-img3.9c80002e547544a07193.png",
+    "static/media/card-img1.png": "/space-tours/static/media/card-img1.c6f31a3656c5141aad3f.png",
+    "static/media/logo-img.png": "/space-tours/static/media/logo-img.a15b7ce2264f9090503e.png",
+    "static/media/heart.svg": "/space-tours/static/media/heart.5d6d876ede4ed590bcbd7a336480567c.svg",
+    "static/media/delete.svg": "/space-tours/static/media/delete.8cef12807e2dd72181ad4e995588a26b.svg",
+    "index.html": "/space-tours/index.html",
+    "static/media/arrow-down.svg": "/space-tours/static/media/arrow-down.a73ca3d07c68cc02bb91826c84c665d9.svg",
+    "static/media/dot-black.svg": "/space-tours/static/media/dot-black.b9cfbf79fee135a12d307f3592d2c205.svg",
+    "static/media/dot.svg": "/space-tours/static/media/dot.b7ca7422479ebe9bc4fe70825d65fbad.svg",
+    "static/media/arrow-left.svg": "/space-tours/static/media/arrow-left.a2358bf723e75abda3cf8fd91c09707b.svg",
+    "static/media/arrow-right.svg": "/space-tours/static/media/arrow-right.760f0af79460491a18260e81bd9895b3.svg",
+    "static/media/dot-outline-black.svg": "/space-tours/static/media/dot-outline-black.b57692fdf83b39d7513a93b977310406.svg",
+    "static/media/dot-outline.svg": "/space-tours/static/media/dot-outline.85ffa9ee9505b9e0abfdfcf008da2000.svg",
+    "main.ac41eca8.css.map": "/space-tours/static/css/main.ac41eca8.css.map",
+    "main.624557dc.js.map": "/space-tours/static/js/main.624557dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac41eca8.css",
+    "static/js/main.624557dc.js"
+  ]
+}
