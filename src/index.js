@@ -11,7 +11,7 @@ import { RecoilRoot } from 'recoil';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<BrowserRouter basename="space-tours">
+		<BrowserRouter basename="/space-tours">
 			<ApolloProvider client={client}>
 				<RecoilRoot>
 					<App />
