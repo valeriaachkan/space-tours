@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import {
 	AnchorLink,
+	Container,
 	HeadingWrapper,
 	HeroSection,
 	Image,

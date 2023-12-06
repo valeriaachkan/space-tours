@@ -6,6 +6,7 @@ export const HeroSection = styled.section`
 	position: relative;
 	width: 100%;
 	height: 740px;
+	background-color: rgba(30, 30, 30, 0.8);
 
 	/* Styles for Swiper Pagination */
 	.swiper {
@@ -13,13 +14,18 @@ export const HeroSection = styled.section`
 	}
 	.swiper-pagination {
 		position: absolute;
-		left: 625px !important;
+		left: 45% !important;
+		transform: translateX(-20%) !important;
 		display: block;
 		width: 96px !important;
 		z-index: 4 !important;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 230px !important;
+
+		@media only screen and (min-width: 1770px) {
+			transform: translateX(0) !important;
+		}
 	}
 
 	.swiper-pagination-bullet {
@@ -37,6 +43,12 @@ export const HeroSection = styled.section`
 		background: url(${Bullet}) no-repeat center center fixed;
 		background-color: transparent !important;
 	}
+`;
+
+export const Container = styled.div`
+	position: relative;
+	max-width: 1440px;
+	margin: 0 auto;
 `;
 
 export const Overlay = styled.div`
