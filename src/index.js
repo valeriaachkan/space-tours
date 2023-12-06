@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './components/App';
+import { BrowserRouter } from 'react-router-dom';
+import GlobalStyles from './styles/global';
+import './services/API-service.ts';
+import { ApolloProvider } from '@apollo/client';
+import { client } from './services/API-service';
+import { RecoilRoot } from 'recoil';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+	<React.StrictMode>
+		<BrowserRouter>
+			<ApolloProvider client={client}>
+				<RecoilRoot>
+					<App />
+				</RecoilRoot>
+			</ApolloProvider>
+			<GlobalStyles />
+		</BrowserRouter>
+	</React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
